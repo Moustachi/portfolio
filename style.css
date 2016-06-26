@@ -1,4 +1,58 @@
-@media only screen and (min-device-width: 0px) and (max-device-width: 480px) {
+html {
+	background-color: black;
+	color: white;
+}
+
+header {
+	text-align: center;
+	margin-top: 7em;
+	pointer-events: none;
+}
+
+img h1 {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+.links {
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: .5rem;
+}
+
+h2 {
+	margin: 0;
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+}
+
+.about_me {
+	margin: 1em auto;
+	display: none;
+	width: 50%;
+	text-align: justify;
+}
+
+footer {
+	text-align: center;
+	font-size: 7pt;
+	font-weight: 100;
+}
+
+section{
+	text-align: center;
+}
+
+@media (max-width: 428px) {
     html {
         background-color: black;
         color: white;
@@ -7,6 +61,23 @@
         text-align: center;
         margin-top: 7em;
         pointer-events: none;
+    }
+    img h1 {
+        -webkit-touch-callout: none;
+        /* iOS Safari */
+        
+        -webkit-user-select: none;
+        /* Chrome/Safari/Opera */
+        
+        -moz-user-select: none;
+        /* Firefox */
+        
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        
+        user-select: none;
+        /* Non-prefixed version, currently
+        not supported by any browser */
     }
     .links {
         text-align: center;
@@ -37,20 +108,8 @@
     }
 }
 
-img h1 {
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    
-    -webkit-user-select: none;
-    /* Chrome/Safari/Opera */
-    
-    -moz-user-select: none;
-    /* Firefox */
-    
-    -ms-user-select: none;
-    /* Internet Explorer/Edge */
-    
-    user-select: none;
-    /* Non-prefixed version, currently
-    not supported by any browser */
-}
+@media (min-width: 429px) and (max-width: 768px) {
+	html {
+		background-color: gray;
+	}
+} 
