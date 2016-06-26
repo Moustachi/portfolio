@@ -9,7 +9,7 @@ header {
 	pointer-events: none;
 }
 
-img {
+img h1 {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none;   /* Chrome/Safari/Opera */
   -moz-user-select: none;      /* Firefox */
