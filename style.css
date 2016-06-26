@@ -6,15 +6,20 @@ html {
 header {
 	text-align: center;
 	margin-top: 7em;
+	pointer-events: none;
+}
+
+img {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
 }
 
 .links {
 	text-align: center;
-}
-
-footer {
-	text-align: center;
-	font-size: 7pt;
 }
 
 h1 {
@@ -24,4 +29,22 @@ h1 {
 h2 {
 	margin: 0;
 	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+}
+
+.about_me {
+	margin: 0 .5em 0 .7em;
+}
+
+footer {
+	text-align: center;
+	font-size: 7pt;
+	font-weight: 100;
+}
+
+section{
+	text-align: center;
 }
