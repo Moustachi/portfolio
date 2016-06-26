@@ -36,7 +36,10 @@ a {
 }
 
 .about_me {
-	margin: 0 .5em 0 .7em;
+	margin: 1em auto;
+	display: none;
+	width: 50%;
+	text-align: justify;
 }
 
 footer {
