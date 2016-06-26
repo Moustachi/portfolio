@@ -1,0 +1,27 @@
+html {
+	background-color: black;
+	color: white;
+}
+
+header {
+	text-align: center;
+	margin-top: 7em;
+}
+
+.links {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 7pt;
+}
+
+h1 {
+	margin-bottom: .5rem;
+}
+
+h2 {
+	margin: 0;
+	font-weight: lighter;
+}
